@@ -11,8 +11,7 @@ scaler = joblib.load("scaler.pkl")
 feature_columns = [
     'Rainfall (mm)', 'Temperature (°C)', 'Soil_pH', 'Soil_Clay (%)',
     'Soil_Silt (%)', 'Soil_Sand (%)', 'Fertilizer_Use (kg/ha)',
-    'Planting_Density (plants/m²)', 'Rainfall_Temp', 'Fert_Density',
-    'Rainfall²', 'Temperature²'
+    'Planting_Density (plants/m²)'
 ]
 
 st.title("🌽 Maize Yield Prediction App")
